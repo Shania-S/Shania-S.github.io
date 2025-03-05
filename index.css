@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+}
+
+body {
+  background: #eee9df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+    list-style: none;
+}
+.container {
+  position: relative;
+  max-width: 90%;
+  min-height: 80%;
+  margin: 10px;
+}
+
+.container h1 {
+    color:	#834333;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+section {
+    margin-bottom: 5px;
+}
+
+.container .container-left-right {
+  display: grid;
+  grid-template-columns: 1.02fr 3fr;
+  height: 100%;
+
+}
+
+.container .left_side {
+  position: relative;
+  border-right: 2px solid #705c5e;
+  width: 110%;
+  z-index: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.container .right_side {
+ padding-left: 69px; z-index: 1
+}
+
+.container .right_side {
+  width: 100%;
+  margin-right: 100%;
+  z-index: 1;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.image-side .imgBox {
+  text-align: center;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border-style: double;
+  border-color: white;
+  overflow: hidden;
+}
+
+.image-side .imgBox img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.image-side h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contactInfo,
+.education,
+.language,
+.profileInfo,
+.competences,
+.interest,
+.quality {
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+.title {
+  color: #705c5e;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.second_title {
+  color: #090909;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contactInfo ul {
+  position: relative;
+}
+
+.contactInfo ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 18px;
+  font-size: 17px;
+  color: #705c5e;
+}
+
+.contactInfo ul li span {
+  color: #020202;
+}
+
+.education h4 {
+  color: rgb(20, 2, 2);
+  font-weight: bold;
+}
+
+.education span {
+  color: rgb(5, 1, 1);
+}
+
+.language ul li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.language .text {
+  color: #1a1818;
+}
+
+.language .percent {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background: #705c5e;
+  display: block;
+  margin-top: 5px;
+}
+
+.language .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.button {
+  background-color: #317973;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50px;
+}
+
+.lang {
+  background: #c6a1a6;
+  padding: 5px;
+  margin-top: 10px;
+  border: 10px;
+}
+
+.but {
+  background: rgb(182, 181, 181);
+  padding: 5px;
+  margin-top: 10px;
+  border: 10px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  margin: 20px 0;
+}
+
+.box .year_company {
+  min-width: 150px;
+}
+
+.box .year_company h5 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 15px;
+  font-weight:600;
+}
+
+.box .text h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.box .year_company ul {
+  margin-left: 14%;
+}
+
+
+.specificity span {
+  color: white;
+  background-color: #705c5e;
+  padding: 4px;
+  margin-left: 1%;
+}
