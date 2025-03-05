@@ -64,41 +64,21 @@ section {
   padding-top: 10px;
 }
 
-.image-side .imgBox {
-  text-align: center;
-  position: relative;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border-style: double;
-  border-color: white;
-  overflow: hidden;
-}
-
-.image-side .imgBox img {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.image-side h2 span {
-  font-size: 0.8em;
-  font-weight: 300;
-}
-
 .contactInfo,
 .education,
 .language,
-.profileInfo,
 .competences,
-.interest,
 .quality {
   padding-top: 15px;
   padding-bottom: 8px;
 }
+
+.but {
+    background: rgb(182, 181, 181);
+    padding: 5px;
+    margin-top: 10px;
+    border: 10px;
+  }
 
 .title {
   color: #705c5e;
@@ -193,13 +173,6 @@ section {
   border: 10px;
 }
 
-.but {
-  background: rgb(182, 181, 181);
-  padding: 5px;
-  margin-top: 10px;
-  border: 10px;
-}
-
 .box {
   display: grid;
   grid-template-columns: 2fr 6fr;
@@ -226,12 +199,4 @@ section {
 
 .box .year_company ul {
   margin-left: 14%;
-}
-
-
-.specificity span {
-  color: white;
-  background-color: #705c5e;
-  padding: 4px;
-  margin-left: 1%;
 }
