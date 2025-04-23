@@ -43,7 +43,6 @@ position:relative;
 
 .container .left_side {
   position: relative;
-  /*border-right: 2px solid #705c5e;*/
   width: 110%;
   z-index: 2;
   padding-left: 40px;
