@@ -3,10 +3,10 @@ This is a simple self-introduction HTML page where I share a little about *mysel
 
 ## Sections
 The page has *4 main* sections:
-* Introduction
-* Personal interests
-* My CV
-* Top 3 korean series
+1. Introduction
+2. Personal interests
+3. My CV
+4. Top 3 korean series
 
 ## Installation
 This is a basic static project, so you can either **clone** the repository or **download** the zip file:
@@ -23,6 +23,11 @@ The list of languages so far:
 - [ ] English
 - [ ] Español
 - [ ] 한국어
+
+## Credits
+Some information about the series were taken from these websites:
+* [nautiljon](https://www.nautiljon.com/)
+* [mydramalist](https://fr.mydramalist.com/)
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or open an issue.
