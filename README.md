@@ -1,8 +1,8 @@
 ## Project overview
-This is a simple self-introduction HTML page where I share a little about ==myself==. Some of the elements can be reused as a template to build your own project.
+This is a simple self-introduction HTML page where I share a little about *myself*. Some of the elements can be reused as a template to build your own project.
 
 ## Sections
-The page has ==4 main== sections:
+The page has *4 main* sections:
 * Introduction
 * Personal interests
 * My CV
